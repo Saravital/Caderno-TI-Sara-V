@@ -1,0 +1,13 @@
+O código apresentado faz uma requisição HTTP para obter informações meteorológicas atuais de uma API de clima. 
+
+Aqui está uma explicação linha a linha:
+
+Importa os módulos requests (para fazer requisições HTTP) e pprint (para exibir dados de forma mais legível).
+Define a variável api_key, que deve conter sua chave de acesso à API (está vazia no exemplo).
+Define o link da API que será acessada.
+Cria um dicionário com os parâmetros da requisição: a chave da API, a cidade (Rio de Janeiro) e o idioma (português).
+Faz uma requisição GET para a API, passando os parâmetros.
+Se a resposta for bem-sucedida (código 200), converte o conteúdo da resposta para JSON e imprime de forma formatada usando pprint.
+
+Esse código é útil para consultar rapidamente o clima atual de uma cidade usando a API do WeatherAPI. Lembre-se de preencher sua chave de API em api_key para funcionar corretamente.
+
